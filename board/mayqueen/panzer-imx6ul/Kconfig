@@ -1,0 +1,12 @@
+if TARGET_MX6UL_PANZER
+
+config SYS_BOARD
+	default "panzer-imx6ul"
+
+config SYS_VENDOR
+	default "mayqueen"
+
+config SYS_CONFIG_NAME
+	default "panzer-imx6ul"
+
+endif

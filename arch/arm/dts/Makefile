@@ -680,6 +680,7 @@ dtb-$(CONFIG_MX6UL) += \
 	imx6ul-9x9-evk.dtb \
 	imx6ul-liteboard.dtb \
 	imx6ul-phytec-segin-ff-rdk-nand.dtb \
+	imx6ul-panzer.dtb \
 	imx6ul-pico-hobbit.dtb \
 	imx6ul-pico-pi.dtb
 

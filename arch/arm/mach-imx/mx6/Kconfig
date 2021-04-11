@@ -434,6 +434,15 @@ config TARGET_MX6UL_14X14_EVK
 	select SUPPORT_SPL
 	imply CMD_DM
 
+config TARGET_MX6UL_PANZER
+	bool "panzer-imx6ul"
+	select BOARD_LATE_INIT
+	select DM
+	select DM_THERMAL
+	select MX6UL
+	select SUPPORT_SPL
+	imply CMD_DM
+
 config TARGET_MX6UL_ENGICAM
 	bool "Support Engicam GEAM6UL/Is.IoT"
 	select BOARD_LATE_INIT
@@ -712,6 +721,7 @@ source "board/softing/vining_2000/Kconfig"
 source "board/liebherr/display5/Kconfig"
 source "board/liebherr/mccmon6/Kconfig"
 source "board/logicpd/imx6/Kconfig"
+source "board/mayqueen/panzer-imx6ul/Kconfig"
 source "board/seco/Kconfig"
 source "board/sks-kinkel/sksimx6/Kconfig"
 source "board/solidrun/mx6cuboxi/Kconfig"
